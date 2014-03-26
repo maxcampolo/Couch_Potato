@@ -1,8 +1,10 @@
 package com.couchpotato.couchpotato;
 
-import android.os.Bundle;
 import android.app.Activity;
+import android.app.Dialog;
+import android.os.Bundle;
 import android.view.Menu;
+import android.view.View;
 
 public class MainActivity extends Activity {
 
@@ -17,6 +19,18 @@ public class MainActivity extends Activity {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
+	}
+	
+	public void login() {
+		//Intent intent = new Intent(this, Browse.class);
+		//startActivity(intent);
+	}
+	
+	public void signUp(View v) {
+		final Dialog dialog = new Dialog(MainActivity.this);
+		dialog.setContentView(R.layout.sign_up);
+		dialog.setTitle("New User");
+		dialog.show();
 	}
 
 }
