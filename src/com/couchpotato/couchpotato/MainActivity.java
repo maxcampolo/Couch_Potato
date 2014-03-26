@@ -2,6 +2,7 @@ package com.couchpotato.couchpotato;
 
 import android.app.Activity;
 import android.app.Dialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
@@ -21,9 +22,9 @@ public class MainActivity extends Activity {
 		return true;
 	}
 	
-	public void login() {
-		//Intent intent = new Intent(this, Browse.class);
-		//startActivity(intent);
+	public void login(View v) {
+		Intent intent = new Intent(this, Browse.class);
+		startActivity(intent);
 	}
 	
 	public void signUp(View v) {
