@@ -33,5 +33,4 @@ public class MainActivity extends Activity {
 		dialog.setTitle("New User");
 		dialog.show();
 	}
-
 }

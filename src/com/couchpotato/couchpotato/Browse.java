@@ -3,13 +3,13 @@ package com.couchpotato.couchpotato;
 import android.annotation.SuppressLint;
 import android.app.ActionBar;
 import android.app.ActionBar.Tab;
+import android.app.FragmentTransaction;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
 import android.view.Menu;
-import android.app.FragmentTransaction;
-import android.support.v4.app.FragmentActivity;
-
-
+import android.view.View;
 
 import com.couchpotato.adapter.TabsPagerAdapter;
 
@@ -66,6 +66,11 @@ public class Browse extends FragmentActivity implements ActionBar.TabListener{
 		return true;
 	}
 	
+	//onClick method to bring up TVShow Description page
+    public void openTVShow(View v) {
+    	Intent nextScreen = new Intent(this, TVShow.class);
+    	startActivity(nextScreen);	
+    }
 	
 
 }

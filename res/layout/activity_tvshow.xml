@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+   	<RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+	    <TextView 
+	        android:id="@+id/textview_tvshowname"
+	        android:layout_alignParentTop="true"
+	        android:layout_alignParentLeft="true"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="10dp"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="5dp"
+	        android:text="Android Show"
+	        android:textSize="20dp"
+	        />
+	 
+	     <ImageView 
+	        android:id="@+id/imageview_overallrating"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	      	android:layout_alignTop="@+id/textview_tvshowname"
+			android:layout_alignParentRight="true"
+	  		android:paddingLeft="15dp"
+	        android:paddingTop="15dp"
+	        android:paddingBottom="10dp"
+	        android:paddingRight="10dp"
+	        android:src="@drawable/twohalfstars"
+	        />
+	    
+	   
+	    
+	    <View
+	        android:id="@+id/gray_line"
+	  		android:layout_width="match_parent"
+	   		android:layout_height="2dp" 
+	   		android:layout_marginBottom="10dp"      
+	   		android:background="#C0C0C0"
+	   		android:layout_below="@id/textview_tvshowname"
+	   		android:layout_marginRight="5dp"
+	   		android:layout_marginLeft="5dp"
+	   		/>
+	    
+	    <ImageView 
+	        android:id="@+id/imageview_tvshowimage"
+	        android:layout_width="75dp"
+	        android:layout_height="75dp"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@id/gray_line"
+	        android:layout_marginLeft="20dp"
+	        android:src="@drawable/potato_icon"
+	        />
+	    
+	    <TextView
+	        android:id="@+id/textview_airtime"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@id/imageview_tvshowimage"
+	        android:layout_alignTop="@id/imageview_tvshowimage"
+	        android:paddingLeft="15dp"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp"
+	        android:text="Fox: 9pm Saturday"
+	        />
+	    
+	    <View
+	        android:id="@+id/blank"
+	        android:layout_height="wrap_content"
+	        android:layout_width="15dp"
+	        android:layout_below="@+id/textview_airtime"
+		    android:layout_alignLeft="@+id/textview_airtime" />
+	
+	    <Button
+		    android:id="@+id/button_addto"
+		    style="?android:attr/buttonStyleSmall"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+    		android:layout_below="@+id/textview_airtime"
+    		android:layout_toRightOf="@id/blank"
+		    android:text="+Add To" />
+	    
+	   
+	    <LinearLayout
+	        	android:id="@+id/linear_layout_1"
+	        	android:layout_height="wrap_content" 
+	        	android:layout_width="match_parent" 
+	        	android:orientation="vertical"
+	        	android:layout_below="@id/imageview_tvshowimage" 
+	        	android:paddingTop="20dp" >
+	        	
+	    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#CD661D"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" />
+    
+     <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#CD661D"
+        android:text="Description"
+        android:textSize="20sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginBottom="10dp"
+        android:background="#CD661D"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" />
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="100dp" 
+        android:paddingBottom="@dimen/activity_vertical_margin"
+    	android:paddingLeft="@dimen/activity_horizontal_margin"
+    	android:paddingRight="@dimen/activity_horizontal_margin"
+    	android:paddingTop="@dimen/activity_vertical_margin"
+    	android:text="I am a potato show."/>
+    
+    
+
+     <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#CD661D"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" />
+     
+     <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#CD661D"
+        android:text=""
+        android:textSize="20sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginBottom="10dp"
+        android:background="#C0C0C0"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" />
+    </LinearLayout>
+    
+	<TextView 
+	    	android:id="@+id/textview_yourrating"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/linear_layout_1"
+	        android:paddingLeft="@dimen/activity_horizontal_margin"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="5dp"
+	        android:text="Your Rating:"
+	        android:textSize="20dp" />
+
+	<ImageView 
+	        android:id="@+id/imageview_yourrating"
+	        android:layout_width="150dp"
+	        android:layout_height="35dp"
+	        android:layout_toRightOf="@id/textview_yourrating"
+	  		android:layout_below="@id/linear_layout_1"
+	  		android:paddingTop="10dp"
+	        android:layout_marginLeft="15dp"
+	        android:src="@drawable/threestars"
+	        />
+	
+	</RelativeLayout>
+</ScrollView>
