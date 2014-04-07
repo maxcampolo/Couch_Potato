@@ -92,7 +92,7 @@
      <TextView android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:background="#CD661D"
-        android:text="Browse"
+        android:text="Watched"
         android:textSize="20sp"/>
 
     <View
@@ -118,41 +118,149 @@
             android:layout_marginBottom="8dp"
             android:gravity="center"
             android:orientation="horizontal" >
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/ic_launcher" />
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/ic_launcher" />
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/ic_launcher" />
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/ic_launcher" />
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/ic_launcher" />
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/ic_launcher" />
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/ic_launcher" />
-                
-               	<!--  
-                <TextView
-                    android:layout_width="0.2dp"
-                    android:layout_height="fill_parent"
-                    android:layout_alignParentRight="true" />
-                         android:background="@drawable/ln" />   -->
+                <LinearLayout 
+            	    android:id="@+id/watched_gameofthrones"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"
+        			android:orientation="vertical" 
+        			android:visibility="gone">
+                	<ImageView
+                	    android:id="@+id/imageview_gameofthrones"
+                    	android:layout_width="100dp"
+                    	android:layout_height="100dp"
+                    	android:src="@drawable/gameofthrones" 
+                    	android:onClick="openTVShow"
+                    	android:tag="gameofthrones"/>
+                	<TextView 
+                	    android:id="@+id/textview_gameofthrones"
+                	    android:layout_width="100dp"
+                	    android:layout_height="wrap_content"
+                	    android:gravity="center"
+                	    android:text="@string/gameofthrones"  />
+                	    
+                </LinearLayout>
+                <LinearLayout 
+                    android:id="@+id/watched_chappelle"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"
+        			android:orientation="vertical" 
+        			android:visibility="gone">
+                	<ImageView
+                	    android:id="@+id/imageview_chappelle"
+                    	android:layout_width="100dp"
+                    	android:layout_height="100dp"
+                    	android:src="@drawable/chappelle" 
+                    	android:onClick="openTVShow"
+                    	android:tag="chappelle"/>
+                	<TextView 
+                	    android:id="@+id/textview_chappelle"
+                	    android:layout_width="100dp"
+                	    android:layout_height="wrap_content"
+                	    android:gravity="center"
+                	    android:text="@string/chappelle" />
+                </LinearLayout>
+                <LinearLayout 
+            	    android:id="@+id/watched_sportscenter"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"
+        			android:orientation="vertical" 
+        			android:visibility="gone">
+                	<ImageView
+                	    android:id="@+id/imageview_sportscenter"
+                    	android:layout_width="100dp"
+                    	android:layout_height="100dp"
+                    	android:src="@drawable/sportscenter" 
+                    	android:onClick="openTVShow"
+                    	android:tag="sportscenter"/>
+                	<TextView 
+                	    android:id="@+id/textview_sportscenter"
+                	    android:layout_width="100dp"
+                	    android:layout_height="wrap_content"
+                	     android:gravity="center"
+                	    android:text="@string/sportscenter" />
+                </LinearLayout>
+                <LinearLayout 
+                    android:id="@+id/watched_cosmos"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"
+        			android:orientation="vertical" 
+        			android:visibility="gone">
+                	<ImageView
+                	    android:id="@+id/imageview_cosmos"
+                    	android:layout_width="100dp"
+                    	android:layout_height="100dp"
+                    	android:src="@drawable/cosmos" 
+                    	android:onClick="openTVShow"
+                    	android:tag="cosmos"/>
+                	<TextView 
+                	    android:id="@+id/textview_cosmos"
+                	    android:layout_width="100dp"
+                	    android:layout_height="wrap_content"
+                	    android:gravity="center"
+                	    android:text="@string/cosmos" />
+                </LinearLayout>
+                <LinearLayout 
+            	    android:id="@+id/watched_breakingbad"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"
+        			android:orientation="vertical" 
+        			android:visibility="gone">
+                	<ImageView
+                	    android:id="@+id/imageview_breakingbad"
+                    	android:layout_width="100dp"
+                    	android:layout_height="100dp"
+                    	android:src="@drawable/breakingbad" 
+                    	android:onClick="openTVShow"
+                    	android:tag="breakingbad"/>
+                	<TextView 
+                	    android:id="@+id/textview_breakingbad"
+                	    android:layout_width="100dp"
+                	    android:layout_height="wrap_content"
+                	    android:gravity="center"
+                	    android:text="@string/breakingbad" />
+                </LinearLayout>
+                <LinearLayout 
+                    android:id="@+id/watched_southpark"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"
+        			android:orientation="vertical" 
+        			android:visibility="gone">
+                	<ImageView
+                	    android:id="@+id/imageview_southpark"
+                    	android:layout_width="100dp"
+                    	android:layout_height="100dp"
+                    	android:src="@drawable/southpark" 
+                    	android:onClick="openTVShow"
+                    	android:tag="southpark"/>
+                	<TextView 
+                	    android:id="@+id/textview_southpark"
+                	    android:layout_width="100dp"
+                	    android:layout_height="wrap_content"
+                	    android:gravity="center"
+                	    android:text="@string/southpark" />
+                </LinearLayout>
+                <LinearLayout 
+            	    android:id="@+id/watched_invzim"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"
+        			android:orientation="vertical" 
+        			android:visibility="gone">
+                	<ImageView
+                	    android:id="@+id/imageview_invzim"
+                    	android:layout_width="100dp"
+                    	android:layout_height="100dp"
+                    	android:src="@drawable/invzim" 
+                    	android:onClick="openTVShow"
+                    	android:tag="invzim"/>
+                	<TextView 
+                	    android:id="@+id/textview_invzim"
+                	    android:layout_width="100dp"
+                	    android:layout_height="wrap_content"
+                	     android:gravity="center"
+                	    android:text="@string/invzim" />
+                </LinearLayout>
+  
+               	
         </LinearLayout>
 
 </HorizontalScrollView>
@@ -167,7 +275,7 @@
      <TextView android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:background="#CD661D"
-        android:text="Browse"
+        android:text="Want to Watch"
         android:textSize="20sp"/>
 
     <View
@@ -193,43 +301,148 @@
             android:layout_marginBottom="8dp"
             android:gravity="center"
             android:orientation="horizontal" >
-                 <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/ic_launcher" />
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/ic_launcher" />
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/ic_launcher" />
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/ic_launcher" />
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/ic_launcher" />
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/ic_launcher" />
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/ic_launcher" />
-                
-               	<!--  
-                <TextView
-                    android:layout_width="0.2dp"
-                    android:layout_height="fill_parent"
-                    android:layout_alignParentRight="true" />
-                         android:background="@drawable/ln" />   -->
-        </LinearLayout>
-
+                <LinearLayout 
+            	    android:id="@+id/wanted_gameofthrones"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"
+        			android:orientation="vertical" 
+        			android:visibility="gone">
+                	<ImageView
+                	    android:id="@+id/imageview_gameofthrones"
+                    	android:layout_width="100dp"
+                    	android:layout_height="100dp"
+                    	android:src="@drawable/gameofthrones" 
+                    	android:onClick="openTVShow"
+                    	android:tag="gameofthrones"/>
+                	<TextView 
+                	    android:id="@+id/textview_gameofthrones"
+                	    android:layout_width="100dp"
+                	    android:layout_height="wrap_content"
+                	    android:gravity="center"
+                	    android:text="@string/gameofthrones"  />
+                	    
+                </LinearLayout>
+                <LinearLayout 
+                    android:id="@+id/wanted_chappelle"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"
+        			android:orientation="vertical" 
+        			android:visibility="gone">
+                	<ImageView
+                	    android:id="@+id/imageview_chappelle"
+                    	android:layout_width="100dp"
+                    	android:layout_height="100dp"
+                    	android:src="@drawable/chappelle" 
+                    	android:onClick="openTVShow"
+                    	android:tag="chappelle"/>
+                	<TextView 
+                	    android:id="@+id/textview_chappelle"
+                	    android:layout_width="100dp"
+                	    android:layout_height="wrap_content"
+                	    android:gravity="center"
+                	    android:text="@string/chappelle" />
+                </LinearLayout>
+                <LinearLayout 
+            	    android:id="@+id/wanted_sportscenter"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"
+        			android:orientation="vertical" 
+        			android:visibility="gone">
+                	<ImageView
+                	    android:id="@+id/imageview_sportscenter"
+                    	android:layout_width="100dp"
+                    	android:layout_height="100dp"
+                    	android:src="@drawable/sportscenter" 
+                    	android:onClick="openTVShow"
+                    	android:tag="sportscenter"/>
+                	<TextView 
+                	    android:id="@+id/textview_sportscenter"
+                	    android:layout_width="100dp"
+                	    android:layout_height="wrap_content"
+                	     android:gravity="center"
+                	    android:text="@string/sportscenter" />
+                </LinearLayout>
+                <LinearLayout 
+                    android:id="@+id/wanted_cosmos"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"
+        			android:orientation="vertical" 
+        			android:visibility="gone">
+                	<ImageView
+                	    android:id="@+id/imageview_cosmos"
+                    	android:layout_width="100dp"
+                    	android:layout_height="100dp"
+                    	android:src="@drawable/cosmos" 
+                    	android:onClick="openTVShow"
+                    	android:tag="cosmos"/>
+                	<TextView 
+                	    android:id="@+id/textview_cosmos"
+                	    android:layout_width="100dp"
+                	    android:layout_height="wrap_content"
+                	    android:gravity="center"
+                	    android:text="@string/cosmos" />
+                </LinearLayout>
+                <LinearLayout 
+            	    android:id="@+id/wanted_breakingbad"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"
+        			android:orientation="vertical" 
+        			android:visibility="gone">
+                	<ImageView
+                	    android:id="@+id/imageview_breakingbad"
+                    	android:layout_width="100dp"
+                    	android:layout_height="100dp"
+                    	android:src="@drawable/breakingbad" 
+                    	android:onClick="openTVShow"
+                    	android:tag="breakingbad"/>
+                	<TextView 
+                	    android:id="@+id/textview_breakingbad"
+                	    android:layout_width="100dp"
+                	    android:layout_height="wrap_content"
+                	    android:gravity="center"
+                	    android:text="@string/breakingbad" />
+                </LinearLayout>
+                <LinearLayout 
+                    android:id="@+id/wanted_southpark"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"
+        			android:orientation="vertical" 
+        			android:visibility="gone">
+                	<ImageView
+                	    android:id="@+id/imageview_southpark"
+                    	android:layout_width="100dp"
+                    	android:layout_height="100dp"
+                    	android:src="@drawable/southpark" 
+                    	android:onClick="openTVShow"
+                    	android:tag="southpark"/>
+                	<TextView 
+                	    android:id="@+id/textview_southpark"
+                	    android:layout_width="100dp"
+                	    android:layout_height="wrap_content"
+                	    android:gravity="center"
+                	    android:text="@string/southpark" />
+                </LinearLayout>
+                <LinearLayout 
+            	    android:id="@+id/wanted_invzim"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"
+        			android:orientation="vertical" 
+        			android:visibility="gone">
+                	<ImageView
+                	    android:id="@+id/imageview_invzim"
+                    	android:layout_width="100dp"
+                    	android:layout_height="100dp"
+                    	android:src="@drawable/invzim" 
+                    	android:onClick="openTVShow"
+                    	android:tag="invzim"/>
+                	<TextView 
+                	    android:id="@+id/textview_invzim"
+                	    android:layout_width="100dp"
+                	    android:layout_height="wrap_content"
+                	     android:gravity="center"
+                	    android:text="@string/invzim" />
+                </LinearLayout>
+	</LinearLayout>
 </HorizontalScrollView>
 	    
     </LinearLayout>

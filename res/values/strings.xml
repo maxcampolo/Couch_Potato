@@ -6,5 +6,11 @@
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_browse">Browse</string>
     <string name="title_activity_tvshow">TVShow</string>
-
+    <string name="gameofthrones">Game of Thrones</string>
+ 	<string name="chappelle">The Chappelle Show</string>
+ 	<string name="sportscenter">Sportscenter</string>
+ 	<string name="cosmos">Cosmos</string>
+ 	<string name="breakingbad">Breaking Bad</string>
+ 	<string name="southpark">Southpark</string>
+ 	<string name="invzim">Invader Zim</string>
 </resources>

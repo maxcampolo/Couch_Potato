@@ -16,7 +16,6 @@ public class BrowseFragment extends Fragment {
  
         View rootView = inflater.inflate(R.layout.fragment_browse, container, false);
 
-        
         return rootView;
     }
     

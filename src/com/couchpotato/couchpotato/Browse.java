@@ -10,17 +10,21 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
 import android.view.Menu;
 import android.view.View;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.couchpotato.adapter.TabsPagerAdapter;
 
 @SuppressLint("NewApi")
 public class Browse extends FragmentActivity implements ActionBar.TabListener{
 
+	public final static String TVShowName = "com.couchpotato.couchpotato.TVShowName";
+	public static String MyUser = "Name";
 	private ViewPager viewPager;
 	private TabsPagerAdapter mAdapter;
 	private ActionBar actionBar;
 	// Tab titles
-    private String[] tabs = { "Browse", "Profile"};
+    private String[] tabs = {"Profile","Browse"};
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		
@@ -41,6 +45,12 @@ public class Browse extends FragmentActivity implements ActionBar.TabListener{
         for (String tab_name : tabs) {
             actionBar.addTab(actionBar.newTab().setText(tab_name).setTabListener(this));
         }
+        
+        Intent intent = getIntent();
+        
+        //Set Profile Name
+        MyUser = intent.getStringExtra(MainActivity.USERCLASS);
+        
 	}
 	
 	@Override
@@ -68,7 +78,10 @@ public class Browse extends FragmentActivity implements ActionBar.TabListener{
 	
 	//onClick method to bring up TVShow Description page
     public void openTVShow(View v) {
+    	ImageView img = (ImageView) findViewById(v.getId());
+    	String out = (String) img.getTag();
     	Intent nextScreen = new Intent(this, TVShow.class);
+    	nextScreen.putExtra(TVShowName, out);
     	startActivity(nextScreen);	
     }
 	
