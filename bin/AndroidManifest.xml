@@ -28,11 +28,16 @@
         </activity>
         <activity
             android:name="com.couchpotato.couchpotato.TVShow"
-            android:label="@string/title_activity_tvshow" 
+            android:label="@string/title_activity_tvshow"
             android:parentActivityName="com.couchpotato.couchpotato.Browse" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.couchpotato.couchpotato.Browse" />>
+                android:value="com.couchpotato.couchpotato.Browse" />
+>
+        </activity>
+        <activity
+            android:name="com.couchpotato.couchpotato.Timeline"
+            android:label="@string/title_activity_timeline" >
         </activity>
     </application>
 

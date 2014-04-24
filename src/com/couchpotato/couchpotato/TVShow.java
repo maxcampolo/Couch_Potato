@@ -1,14 +1,19 @@
 package com.couchpotato.couchpotato;
 
+import java.util.Calendar;
+
 import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.app.AlarmManager;
 import android.app.AlertDialog;
+import android.app.PendingIntent;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -37,12 +42,20 @@ public class TVShow extends Activity {
 	    };
 
 	public static String tag;
+	public String tvshowtag;
+	
+	//stuff for notification
+	//private AlarmManager alarmManager;
+	//private PendingIntent notifyIntent;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_tvshow);
 		getActionBar().setDisplayShowTitleEnabled(false);
+		
+		//set alarm manager
+		//alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
 		
 		Button addButton = (Button) findViewById(R.id.button_addto);  
 		addButton.setOnClickListener(new OnClickListener() {
@@ -84,7 +97,8 @@ public class TVShow extends Activity {
 		/*Set Tv Show Name
 		String TVShowName = intent.getStringExtra(Browse.TVShowName); */
 		TextView TVSName = (TextView)findViewById(R.id.textview_tvshowname);
-		TVSName.setText(c.getString(0));
+		tvshowtag = c.getString(0);
+		TVSName.setText(tvshowtag);
 		
 		//set tv show image
 		ImageView TVimage = (ImageView)findViewById(R.id.imageview_tvshowimage);
@@ -110,7 +124,22 @@ public class TVShow extends Activity {
 	    return context.getResources().getIdentifier("drawable/" + imageName, null, context.getPackageName());
 	}	
 	
-	
+	public void startTimeline(View v) {
+    	Intent intent = new Intent(this, Timeline.class);
+    	intent.putExtra(Browse.TVShowName,tvshowtag);
+    	startActivity(intent);
+	}
+	/*
+	public void notification(View v) {
+		 Intent myIntent = new Intent(TVShow.this,NotificationService.class);
+
+	     notifyIntent = PendingIntent.getService(TVShow.this, 0, myIntent, 0);
+	     Calendar calendar = Calendar.getInstance();
+	     calendar.add(Calendar.SECOND, 5);
+	     Log.v("NotificationService", "time for alarm trigger:" + calendar.getTime().toString());
+	     alarmManager.set(AlarmManager.RTC_WAKEUP,calendar.getTimeInMillis(),notifyIntent);
+	}
+	*/
 	private void openDialogue(View view) {
 		AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(TVShow.this);
 		

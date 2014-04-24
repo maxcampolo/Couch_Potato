@@ -24,7 +24,7 @@ public class Browse extends FragmentActivity implements ActionBar.TabListener{
 	private TabsPagerAdapter mAdapter;
 	private ActionBar actionBar;
 	// Tab titles
-    private String[] tabs = {"Profile","Browse"};
+    private String[] tabs = {"Browse","Profile"};
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		

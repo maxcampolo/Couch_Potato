@@ -148,6 +148,7 @@
         android:paddingRight="5dp" />
     </LinearLayout>
     
+	<!-- 
 	<TextView 
 	    	android:id="@+id/textview_yourrating"
 	        android:layout_width="wrap_content"
@@ -159,6 +160,7 @@
 	        android:text="Your Rating:"
 	        android:textSize="20dp" />
 
+
 	<ImageView 
 	        android:id="@+id/imageview_yourrating"
 	        android:layout_width="150dp"
@@ -169,6 +171,22 @@
 	        android:layout_marginLeft="15dp"
 	        android:src="@drawable/threestars"
 	        />
-	
+	-->
+	<Button
+	    	android:id="@+id/button_startTimeline"
+		    android:layout_width="400dp"
+		    android:layout_height="wrap_content"
+		    android:layout_below="@id/linear_layout_1"
+		    android:text="Start Timeline" 
+		    android:onClick="startTimeline" />
+	<!--  
+	<Button
+	    	android:id="@+id/button_notification"
+		    android:layout_width="400dp"
+		    android:layout_height="wrap_content"
+		    android:layout_below="@id/button_startTimeline"
+		    android:text="Notify" 
+		    android:onClick="notifcation" />
+		   --> 
 	</RelativeLayout>
 </ScrollView>

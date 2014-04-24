@@ -9,6 +9,135 @@ package com.couchpotato.couchpotato;
 
 public final class R {
     public static final class attr {
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int angleOffset=0x7f010003;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int angleRange=0x7f010004;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int backgroundColor=0x7f010009;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int dividerWidth=0x7f010006;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int hasShadow=0x7f010007;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int innerCircle=0x7f010002;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int innerRadius=0x7f010000;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>normal</code></td><td>1</td><td></td></tr>
+<tr><td><code>pie</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static final int layoutMode=0x7f010005;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int progressColor=0x7f010008;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int sliceDivider=0x7f010001;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int strokeWidth=0x7f01000e;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int subtitle=0x7f01000c;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int subtitleColor=0x7f01000d;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int title=0x7f01000a;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int titleColor=0x7f01000b;
+    }
+    public static final class color {
+        public static final int circular_progress_default_background=0x7f050001;
+        public static final int circular_progress_default_progress=0x7f050000;
+        public static final int circular_progress_default_subtitle=0x7f050003;
+        public static final int circular_progress_default_title=0x7f050002;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -17,127 +146,172 @@ public final class R {
          screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
     
          */
-        public static final int activity_horizontal_margin=0x7f040000;
-        public static final int activity_vertical_margin=0x7f040001;
+        public static final int activity_horizontal_margin=0x7f060000;
+        public static final int activity_vertical_margin=0x7f060001;
     }
     public static final class drawable {
         public static final int breakingbad=0x7f020000;
-        public static final int chappelle=0x7f020001;
-        public static final int cosmos=0x7f020002;
-        public static final int couch_potato_logo=0x7f020003;
-        public static final int couch_potato_logo_large=0x7f020004;
-        public static final int fourstars=0x7f020005;
-        public static final int gameofthrones=0x7f020006;
-        public static final int halfstars=0x7f020007;
-        public static final int ic_launcher=0x7f020008;
-        public static final int invzim=0x7f020009;
-        public static final int onehalfstars=0x7f02000a;
-        public static final int onestars=0x7f02000b;
-        public static final int potato_icon=0x7f02000c;
-        public static final int southpark=0x7f02000d;
-        public static final int sportscenter=0x7f02000e;
-        public static final int threehalfstars=0x7f02000f;
-        public static final int threestars=0x7f020010;
-        public static final int twohalfstars=0x7f020011;
-        public static final int twostars=0x7f020012;
-        public static final int zerostars=0x7f020013;
+        public static final int brunette=0x7f020001;
+        public static final int chappelle=0x7f020002;
+        public static final int cosmos=0x7f020003;
+        public static final int couch_potato_logo=0x7f020004;
+        public static final int couch_potato_logo_large=0x7f020005;
+        public static final int couchpotato_clock01=0x7f020006;
+        public static final int couchpotato_clock02=0x7f020007;
+        public static final int couchpotato_clock03=0x7f020008;
+        public static final int couchpotato_clock04=0x7f020009;
+        public static final int couchpotato_clock05=0x7f02000a;
+        public static final int couchpotato_clock06=0x7f02000b;
+        public static final int couchpotato_clock07=0x7f02000c;
+        public static final int couchpotato_clock08=0x7f02000d;
+        public static final int couchpotato_clock09=0x7f02000e;
+        public static final int couchpotato_clock10=0x7f02000f;
+        public static final int couchpotato_clock11=0x7f020010;
+        public static final int couchpotato_clock12=0x7f020011;
+        public static final int couchpotato_timeline=0x7f020012;
+        public static final int fourstars=0x7f020013;
+        public static final int gameofthrones=0x7f020014;
+        public static final int gary=0x7f020015;
+        public static final int guy3=0x7f020016;
+        public static final int halfstars=0x7f020017;
+        public static final int ic_launcher=0x7f020018;
+        public static final int invzim=0x7f020019;
+        public static final int kju=0x7f02001a;
+        public static final int onehalfstars=0x7f02001b;
+        public static final int onestars=0x7f02001c;
+        public static final int potato_icon=0x7f02001d;
+        public static final int shaniqua=0x7f02001e;
+        public static final int southpark=0x7f02001f;
+        public static final int sportscenter=0x7f020020;
+        public static final int threehalfstars=0x7f020021;
+        public static final int threestars=0x7f020022;
+        public static final int thumbs_down=0x7f020023;
+        public static final int thumbs_up=0x7f020024;
+        public static final int twohalfstars=0x7f020025;
+        public static final int twostars=0x7f020026;
+        public static final int zerostars=0x7f020027;
     }
     public static final class id {
-        public static final int action_settings=0x7f080042;
-        public static final int asthma_action_plan=0x7f080031;
-        public static final int blank=0x7f08000b;
-        public static final int browse_gallery=0x7f080013;
-        public static final int browse_gallery_layout=0x7f080014;
-        public static final int button_addToWantToWatch=0x7f080012;
-        public static final int button_addToWatched=0x7f080011;
-        public static final int button_addto=0x7f08000c;
-        public static final int button_login=0x7f080004;
-        public static final int button_signup=0x7f080005;
-        public static final int editText_password=0x7f080003;
-        public static final int editText_username=0x7f080002;
-        public static final int edittext_newpassword=0x7f080041;
-        public static final int edittext_newusername=0x7f080040;
-        public static final int gray_line=0x7f080008;
-        public static final int hsv=0x7f080030;
-        public static final int imageview_breakingbad=0x7f080022;
-        public static final int imageview_chappelle=0x7f080019;
-        public static final int imageview_cosmos=0x7f08001f;
-        public static final int imageview_gameofthrones=0x7f080016;
-        public static final int imageview_invzim=0x7f080028;
-        public static final int imageview_logo=0x7f080001;
-        public static final int imageview_overallrating=0x7f080007;
-        public static final int imageview_profileimage=0x7f08002c;
-        public static final int imageview_southpark=0x7f080025;
-        public static final int imageview_sportscenter=0x7f08001c;
-        public static final int imageview_tvshowimage=0x7f080009;
-        public static final int imageview_yourrating=0x7f080010;
-        public static final int layout_breakingbad=0x7f080021;
-        public static final int layout_chappelle=0x7f080018;
-        public static final int layout_cosmos=0x7f08001e;
-        public static final int layout_gameofthrones=0x7f080015;
-        public static final int layout_invzim=0x7f080027;
-        public static final int layout_southpark=0x7f080024;
-        public static final int layout_sportscenter=0x7f08001b;
-        public static final int linear_layout_1=0x7f08000d;
-        public static final int pager=0x7f080000;
-        public static final int textview_airtime=0x7f08000a;
-        public static final int textview_breakingbad=0x7f080023;
-        public static final int textview_chappelle=0x7f08001a;
-        public static final int textview_cosmos=0x7f080020;
-        public static final int textview_gameofthrones=0x7f080017;
-        public static final int textview_invzim=0x7f080029;
-        public static final int textview_logout=0x7f08002f;
-        public static final int textview_schedule=0x7f08002e;
-        public static final int textview_settings=0x7f08002d;
-        public static final int textview_southpark=0x7f080026;
-        public static final int textview_sportscenter=0x7f08001d;
-        public static final int textview_tvdescription=0x7f08000e;
-        public static final int textview_tvshowname=0x7f080006;
-        public static final int textview_username=0x7f08002a;
-        public static final int textview_yourrating=0x7f08000f;
-        public static final int view_line1=0x7f08002b;
-        public static final int wanted_breakingbad=0x7f08003d;
-        public static final int wanted_chappelle=0x7f08003a;
-        public static final int wanted_cosmos=0x7f08003c;
-        public static final int wanted_gameofthrones=0x7f080039;
-        public static final int wanted_invzim=0x7f08003f;
-        public static final int wanted_southpark=0x7f08003e;
-        public static final int wanted_sportscenter=0x7f08003b;
-        public static final int watched_breakingbad=0x7f080036;
-        public static final int watched_chappelle=0x7f080033;
-        public static final int watched_cosmos=0x7f080035;
-        public static final int watched_gameofthrones=0x7f080032;
-        public static final int watched_invzim=0x7f080038;
-        public static final int watched_southpark=0x7f080037;
-        public static final int watched_sportscenter=0x7f080034;
+        public static final int action_settings=0x7f040058;
+        public static final int asthma_action_plan=0x7f040047;
+        public static final int blank=0x7f040022;
+        public static final int browse_gallery=0x7f040029;
+        public static final int browse_gallery_layout=0x7f04002a;
+        public static final int button_addToWantToWatch=0x7f040028;
+        public static final int button_addToWatched=0x7f040027;
+        public static final int button_addto=0x7f040023;
+        public static final int button_login=0x7f040006;
+        public static final int button_signup=0x7f040007;
+        public static final int button_startTimeline=0x7f040026;
+        public static final int chrono=0x7f04001a;
+        public static final int circularprogressbar4=0x7f040019;
+        public static final int editText_password=0x7f040005;
+        public static final int editText_username=0x7f040004;
+        public static final int edittext_newpassword=0x7f040057;
+        public static final int edittext_newusername=0x7f040056;
+        public static final int gray_line=0x7f04001f;
+        public static final int hsv=0x7f040046;
+        public static final int imageview_breakingbad=0x7f040038;
+        public static final int imageview_brunette=0x7f04000b;
+        public static final int imageview_chappelle=0x7f04002f;
+        public static final int imageview_cosmos=0x7f040035;
+        public static final int imageview_gameofthrones=0x7f04002c;
+        public static final int imageview_gary=0x7f040017;
+        public static final int imageview_guy3=0x7f040011;
+        public static final int imageview_invzim=0x7f04003e;
+        public static final int imageview_kju=0x7f04000e;
+        public static final int imageview_logo=0x7f040003;
+        public static final int imageview_overallrating=0x7f04001e;
+        public static final int imageview_profileimage=0x7f040042;
+        public static final int imageview_shaniqua=0x7f040014;
+        public static final int imageview_southpark=0x7f04003b;
+        public static final int imageview_sportscenter=0x7f040032;
+        public static final int imageview_tvshowimage=0x7f040020;
+        public static final int layout_breakingbad=0x7f040037;
+        public static final int layout_brunette=0x7f04000a;
+        public static final int layout_chappelle=0x7f04002e;
+        public static final int layout_cosmos=0x7f040034;
+        public static final int layout_gameofthrones=0x7f04002b;
+        public static final int layout_gary=0x7f040016;
+        public static final int layout_guy3=0x7f040010;
+        public static final int layout_invzim=0x7f04003d;
+        public static final int layout_kju=0x7f04000d;
+        public static final int layout_shaniqua=0x7f040013;
+        public static final int layout_southpark=0x7f04003a;
+        public static final int layout_sportscenter=0x7f040031;
+        public static final int linear_layout_1=0x7f040024;
+        public static final int normal=0x7f040000;
+        public static final int pager=0x7f040002;
+        public static final int pie=0x7f040001;
+        public static final int textview_airtime=0x7f040021;
+        public static final int textview_breakingbad=0x7f040039;
+        public static final int textview_chappelle=0x7f040030;
+        public static final int textview_cosmos=0x7f040036;
+        public static final int textview_gameofthrones=0x7f04002d;
+        public static final int textview_invzim=0x7f04003f;
+        public static final int textview_logout=0x7f040045;
+        public static final int textview_schedule=0x7f040044;
+        public static final int textview_settings=0x7f040043;
+        public static final int textview_southpark=0x7f04003c;
+        public static final int textview_sportscenter=0x7f040033;
+        public static final int textview_tvdescription=0x7f040025;
+        public static final int textview_tvshowname=0x7f04001d;
+        public static final int textview_username=0x7f040040;
+        public static final int timeline_gallery=0x7f040008;
+        public static final int timeline_gallery_layout=0x7f040009;
+        public static final int view_line1=0x7f040041;
+        public static final int voteN=0x7f04001b;
+        public static final int voteP=0x7f04001c;
+        public static final int votetext_friend1=0x7f04000c;
+        public static final int votetext_friend2=0x7f04000f;
+        public static final int votetext_friend3=0x7f040012;
+        public static final int votetext_friend4=0x7f040015;
+        public static final int votetext_friend5=0x7f040018;
+        public static final int wanted_breakingbad=0x7f040053;
+        public static final int wanted_chappelle=0x7f040050;
+        public static final int wanted_cosmos=0x7f040052;
+        public static final int wanted_gameofthrones=0x7f04004f;
+        public static final int wanted_invzim=0x7f040055;
+        public static final int wanted_southpark=0x7f040054;
+        public static final int wanted_sportscenter=0x7f040051;
+        public static final int watched_breakingbad=0x7f04004c;
+        public static final int watched_chappelle=0x7f040049;
+        public static final int watched_cosmos=0x7f04004b;
+        public static final int watched_gameofthrones=0x7f040048;
+        public static final int watched_invzim=0x7f04004e;
+        public static final int watched_southpark=0x7f04004d;
+        public static final int watched_sportscenter=0x7f04004a;
     }
     public static final class layout {
         public static final int activity_browse=0x7f030000;
         public static final int activity_main=0x7f030001;
-        public static final int activity_tvshow=0x7f030002;
-        public static final int add_to_list=0x7f030003;
-        public static final int fragment_browse=0x7f030004;
-        public static final int fragment_profile=0x7f030005;
-        public static final int sign_up=0x7f030006;
+        public static final int activity_timeline=0x7f030002;
+        public static final int activity_tvshow=0x7f030003;
+        public static final int add_to_list=0x7f030004;
+        public static final int fragment_browse=0x7f030005;
+        public static final int fragment_profile=0x7f030006;
+        public static final int sign_up=0x7f030007;
     }
     public static final class menu {
-        public static final int browse=0x7f070000;
-        public static final int main=0x7f070001;
-        public static final int tvshow=0x7f070002;
+        public static final int browse=0x7f090000;
+        public static final int main=0x7f090001;
+        public static final int timeline=0x7f090002;
+        public static final int tvshow=0x7f090003;
     }
     public static final class string {
-        public static final int action_settings=0x7f050001;
-        public static final int app_name=0x7f050000;
-        public static final int breakingbad=0x7f050009;
-        public static final int chappelle=0x7f050006;
-        public static final int cosmos=0x7f050008;
-        public static final int gameofthrones=0x7f050005;
-        public static final int hello_world=0x7f050002;
-        public static final int invzim=0x7f05000b;
-        public static final int southpark=0x7f05000a;
-        public static final int sportscenter=0x7f050007;
-        public static final int title_activity_browse=0x7f050003;
-        public static final int title_activity_tvshow=0x7f050004;
+        public static final int action_settings=0x7f070001;
+        public static final int app_name=0x7f070000;
+        public static final int breakingbad=0x7f070009;
+        public static final int chappelle=0x7f070006;
+        public static final int cosmos=0x7f070008;
+        public static final int gameofthrones=0x7f070005;
+        public static final int hello_world=0x7f070002;
+        public static final int invzim=0x7f07000b;
+        public static final int southpark=0x7f07000a;
+        public static final int sportscenter=0x7f070007;
+        public static final int title_activity_browse=0x7f070003;
+        public static final int title_activity_timeline=0x7f07000c;
+        public static final int title_activity_tvshow=0x7f070004;
     }
     public static final class style {
         /** 
@@ -161,10 +335,282 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f060000;
+        public static final int AppBaseTheme=0x7f080000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f060001;
+        public static final int AppTheme=0x7f080001;
+        public static final int Widget=0x7f080002;
+        public static final int Widget_ProgressBar_CircularProgressBar=0x7f080003;
+        public static final int Widget_ProgressBar_Holo_CircularProgressBar=0x7f080004;
     }
+    public static final class styleable {
+        /** Attributes that can be used with a CircleLayout.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #CircleLayout_angleOffset com.couchpotato.couchpotato:angleOffset}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircleLayout_angleRange com.couchpotato.couchpotato:angleRange}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircleLayout_dividerWidth com.couchpotato.couchpotato:dividerWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircleLayout_innerCircle com.couchpotato.couchpotato:innerCircle}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircleLayout_innerRadius com.couchpotato.couchpotato:innerRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircleLayout_layoutMode com.couchpotato.couchpotato:layoutMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircleLayout_sliceDivider com.couchpotato.couchpotato:sliceDivider}</code></td><td></td></tr>
+           </table>
+           @see #CircleLayout_angleOffset
+           @see #CircleLayout_angleRange
+           @see #CircleLayout_dividerWidth
+           @see #CircleLayout_innerCircle
+           @see #CircleLayout_innerRadius
+           @see #CircleLayout_layoutMode
+           @see #CircleLayout_sliceDivider
+         */
+        public static final int[] CircleLayout = {
+            0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003,
+            0x7f010004, 0x7f010005, 0x7f010006
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.couchpotato.couchpotato.R.attr#angleOffset}
+          attribute's value can be found in the {@link #CircleLayout} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.couchpotato.couchpotato:angleOffset
+        */
+        public static final int CircleLayout_angleOffset = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.couchpotato.couchpotato.R.attr#angleRange}
+          attribute's value can be found in the {@link #CircleLayout} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.couchpotato.couchpotato:angleRange
+        */
+        public static final int CircleLayout_angleRange = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.couchpotato.couchpotato.R.attr#dividerWidth}
+          attribute's value can be found in the {@link #CircleLayout} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.couchpotato.couchpotato:dividerWidth
+        */
+        public static final int CircleLayout_dividerWidth = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.couchpotato.couchpotato.R.attr#innerCircle}
+          attribute's value can be found in the {@link #CircleLayout} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name com.couchpotato.couchpotato:innerCircle
+        */
+        public static final int CircleLayout_innerCircle = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.couchpotato.couchpotato.R.attr#innerRadius}
+          attribute's value can be found in the {@link #CircleLayout} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.couchpotato.couchpotato:innerRadius
+        */
+        public static final int CircleLayout_innerRadius = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.couchpotato.couchpotato.R.attr#layoutMode}
+          attribute's value can be found in the {@link #CircleLayout} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>normal</code></td><td>1</td><td></td></tr>
+<tr><td><code>pie</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name com.couchpotato.couchpotato:layoutMode
+        */
+        public static final int CircleLayout_layoutMode = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.couchpotato.couchpotato.R.attr#sliceDivider}
+          attribute's value can be found in the {@link #CircleLayout} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name com.couchpotato.couchpotato:sliceDivider
+        */
+        public static final int CircleLayout_sliceDivider = 1;
+        /** Attributes that can be used with a CircularProgressBar.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #CircularProgressBar_backgroundColor com.couchpotato.couchpotato:backgroundColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircularProgressBar_hasShadow com.couchpotato.couchpotato:hasShadow}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircularProgressBar_progressColor com.couchpotato.couchpotato:progressColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircularProgressBar_strokeWidth com.couchpotato.couchpotato:strokeWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircularProgressBar_subtitle com.couchpotato.couchpotato:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircularProgressBar_subtitleColor com.couchpotato.couchpotato:subtitleColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircularProgressBar_title com.couchpotato.couchpotato:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircularProgressBar_titleColor com.couchpotato.couchpotato:titleColor}</code></td><td></td></tr>
+           </table>
+           @see #CircularProgressBar_backgroundColor
+           @see #CircularProgressBar_hasShadow
+           @see #CircularProgressBar_progressColor
+           @see #CircularProgressBar_strokeWidth
+           @see #CircularProgressBar_subtitle
+           @see #CircularProgressBar_subtitleColor
+           @see #CircularProgressBar_title
+           @see #CircularProgressBar_titleColor
+         */
+        public static final int[] CircularProgressBar = {
+            0x7f010007, 0x7f010008, 0x7f010009, 0x7f01000a,
+            0x7f01000b, 0x7f01000c, 0x7f01000d, 0x7f01000e
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.couchpotato.couchpotato.R.attr#backgroundColor}
+          attribute's value can be found in the {@link #CircularProgressBar} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.couchpotato.couchpotato:backgroundColor
+        */
+        public static final int CircularProgressBar_backgroundColor = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.couchpotato.couchpotato.R.attr#hasShadow}
+          attribute's value can be found in the {@link #CircularProgressBar} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.couchpotato.couchpotato:hasShadow
+        */
+        public static final int CircularProgressBar_hasShadow = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.couchpotato.couchpotato.R.attr#progressColor}
+          attribute's value can be found in the {@link #CircularProgressBar} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.couchpotato.couchpotato:progressColor
+        */
+        public static final int CircularProgressBar_progressColor = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.couchpotato.couchpotato.R.attr#strokeWidth}
+          attribute's value can be found in the {@link #CircularProgressBar} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.couchpotato.couchpotato:strokeWidth
+        */
+        public static final int CircularProgressBar_strokeWidth = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.couchpotato.couchpotato.R.attr#subtitle}
+          attribute's value can be found in the {@link #CircularProgressBar} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.couchpotato.couchpotato:subtitle
+        */
+        public static final int CircularProgressBar_subtitle = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.couchpotato.couchpotato.R.attr#subtitleColor}
+          attribute's value can be found in the {@link #CircularProgressBar} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.couchpotato.couchpotato:subtitleColor
+        */
+        public static final int CircularProgressBar_subtitleColor = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.couchpotato.couchpotato.R.attr#title}
+          attribute's value can be found in the {@link #CircularProgressBar} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.couchpotato.couchpotato:title
+        */
+        public static final int CircularProgressBar_title = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.couchpotato.couchpotato.R.attr#titleColor}
+          attribute's value can be found in the {@link #CircularProgressBar} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.couchpotato.couchpotato:titleColor
+        */
+        public static final int CircularProgressBar_titleColor = 4;
+    };
 }
