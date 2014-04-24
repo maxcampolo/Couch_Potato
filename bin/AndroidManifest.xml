@@ -35,8 +35,9 @@
                 android:value="com.couchpotato.couchpotato.Browse" />
 >
         </activity>
-        <activity
+        <activity 
             android:name="com.couchpotato.couchpotato.Timeline"
+            android:screenOrientation="portrait"
             android:label="@string/title_activity_timeline" >
         </activity>
     </application>
